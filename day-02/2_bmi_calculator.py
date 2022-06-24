@@ -11,12 +11,15 @@ height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
-# print(type(height))
+# SOLUTION 1
+# height_float = float(height)
+# weight_float = float(weight)
 
-height_float = float(height)
-weight_float = float(weight)
+# bmi = weight_float / (height_float * height_float)
 
-bmi = weight_float / (height_float * height_float)
+# print(int(bmi)) 
 
-print(int(bmi)) 
+# SOLUTION 2
+bmi = int(weight) / float(height) ** 2
+bmi_as_int = int(bmi)
+print(bmi)
