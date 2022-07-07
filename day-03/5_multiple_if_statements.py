@@ -7,13 +7,13 @@ if height >= 120:
   age = int(input("What is your age? "))
   if age < 12:
     bill = 5
-    print("Please pay $5")
+    print("Child tickets are $5.")
   elif age <= 18:
     bill = 7
-    print("Please pay $7")
+    print("Youth tickets are $7.")
   else:
     bill = 12
-    print("Please pay $12")
+    print("Adult tickets are $12.")
 
   wants_photo = input("\nDo you want a photo taken? Y or N? ")
   if wants_photo == "Y":
