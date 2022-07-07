@@ -100,9 +100,9 @@ love_score = str(true) + str(love)
 # Convert the love_score back into an integer to compare below against numbers/integers
 int_score = int(love_score)
 
-if (love_score < 10) or (love_score > 90):
-    print(f"Your score is {love_score}, you go together like coke and mentos.")
-if (love_score >= 40) and (love_score <= 50):
-    print(f"Your score is {love_score}, you are alright together.")
+if (int_score < 10) or (int_score > 90):
+    print(f"Your score is {int_score}, you go together like coke and mentos.")
+if (int_score >= 40) and (int_score <= 50):
+    print(f"Your score is {int_score}, you are alright together.")
 else:
-    print(f"Your score is {love_score}")
+    print(f"Your score is {int_score}")
