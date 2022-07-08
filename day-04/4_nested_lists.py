@@ -18,6 +18,29 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 fruits = ["Strawberries", "Nectarines", "Apples", "Grapes","Peaches", "Cherries", "Pears"]
 vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
 
+# Quiz Q2
+# fruits[-1] = "Melons"
+# fruits.append("Lemons")
+# print(fruits)
+
+# Quiz Q3
 dirty_dozen = [fruits, vegetables]
-# print(dirty_dozen[0])
+
+## EXAMPLES ##
+# Print out both fruits and vegetables lists
+print(dirty_dozen)
+
+# Print out just fruits list
+print(dirty_dozen[0])
+
+# Print out just vegetables list
 print(dirty_dozen[1])
+
+# Print out the 2nd item from the second list (vegetables)
+print(dirty_dozen[1][1])
+
+# Print out the 3rd item from the second list (vegetables) 
+print(dirty_dozen[1][2])
+
+# Print out the 4th item from the second list (vegetables) 
+print(dirty_dozen[1][3])
